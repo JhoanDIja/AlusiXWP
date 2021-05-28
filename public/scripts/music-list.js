@@ -1,13 +1,3 @@
-// To add more song, just copy the following code and paste inside the array
-
-//   {
-//     name: "Here is the music name",
-//     artist: "Here is the artist name",
-//     img: "image name here - remember img must be in .jpg formate and it's inside the images folder of this project folder",
-//     src: "music name here - remember img must be in .mp3 formate and it's inside the songs folder of this project folder"
-//   }
-
-//paste it inside the array as more as you want music then you don't need to do any other thing
 
 let allMusic = [
   {
@@ -47,16 +37,21 @@ let allMusic = [
     src: "music-6"
   },
   {
-    name: "Infeliz",
-    artist: "Bad Bunny ft Arcangel",
-    img: "infeliz",
-    src: "Infeliz"
+    name: "La Rueda",
+    artist: "Frankie Ruiz",
+    img: "larueda",
+    src: "LaRueda"
   },
-  // like this paste it and remember to give comma after ending of this bracket }
-  // {
-  //   name: "Here is the music name",
-  //   artist: "Here is the artist name",
-  //   img: "image name here - remember img must be in .jpg formate and it's inside the images folder of this project folder",
-  //   src: "music name here - remember img must be in .mp3 formate and it's inside the songs folder of this project folder"
-  // }
+  {
+    name: "One Day",
+    artist: "Bad Bunny ft J Balvin & Dua Lipa",
+    img: "oned",
+    src: "OneDay"
+  },
+  {
+    name: "You give love a bad name",
+    artist: "Bon Jovi",
+    img: "YGLABN",
+    src: "YGLABN"
+  },
 ];

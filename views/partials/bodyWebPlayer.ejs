@@ -1,0 +1,134 @@
+<div class="wrapper">
+    <div class="sidewrapper">
+        <div class="logoimg"><a href="/"><img src="/images/AlusiXwhite.png" alt=""></a></div>
+        <div class="buttons">
+            <div class="search">
+                <span class="fas fa-search"></span>
+                <input type="text" name="Search" id="search" placeholder="Buscar">
+            </div>
+            <div class="yourplacebtn">
+                <span><i class="fas fa-book"></i>Tu espacio</span>
+            </div>
+            <div class="addbtn">
+                <span><i class="far fa-plus-square"></i>Crear Playlist</span>
+            </div>
+        </div>
+        <div class="divisorline"></div>
+        <div class="song-details">
+            <p class="name"></p>
+            <p class="artist"></p>
+        </div>
+        <div class="img-area">
+            <img src="" alt="">
+        </div>
+    </div>
+    <div class="mainplayer">
+        <div class="headbar">
+            <div class="controls">
+                <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+                <i id="prev" class="material-icons">skip_previous</i>
+                <div class="play-pause">
+                  <i class="material-icons play">play_arrow</i>
+                </div>
+                <i id="next" class="material-icons">skip_next</i>
+                <i id="more-music" class="material-icons">queue_music</i>
+            </div>
+            <div class="audiosection">
+            <span><i class="fas fa-music"></i></span>
+            </div>
+            <div class="progress-area">
+                <div class="progress-bar">
+                  <audio id="main-audio" src=""></audio>
+                </div>
+                <div class="song-timer">
+                  <span class="current-time">0:00</span>
+                  <span class="max-duration">0:00</span>
+                </div>
+                </div>
+                <div class="sliderContainer">
+                    <span><i id="mutebtn" class="fas fa-volume-up"></i></span>
+                    <input type="range" min="1" max="100" value="100" id="volumeslider" class="slider" step="1">
+                </div>
+                <div class="userinfo">
+                    <p class="user">albertdija</p>
+                    <span><i class="fas fa-user"></i></span>
+                </div>
+            </div>
+            <div class="simulation">
+                <div class="text"><p>Mas escuchadas por ti</p></div>
+                <div class="imagescontainer">
+                    <img src="/images/badbunny.jpg" alt="" class="artist">
+                    <p class="playlistname">Latin MIX</p>
+                </div>
+                <div class="imagescontainer">
+                    <img src="/images/bertienxamilu.jpeg" alt="" class="artist">
+                    <p class="playlistname">Bertie&Xamilu</p>
+                </div>
+                <div class="imagescontainer">
+                    <img src="/images/juicewrld.jpg" alt="" class="artist">
+                    <p class="playlistname">RAP GODS</p>
+                </div>
+                <div class="imagescontainer">
+                    <img src="/images/idk.jpg" alt="" class="artist">
+                    <p class="playlistname">JUST</p>
+                </div>
+                <div class="imagescontainer">
+                    <img src="/images/childs.jpeg" alt="" class="artist">
+                    <p class="playlistname">Childs of Jarabacoa</p>
+                </div>
+                <div class="imagescontainer">
+                    <img src="/images/hamilton.jpeg" alt="" class="artist">
+                    <p class="playlistname">Hamilton</p>
+                </div>
+                <div class="imagescontainer">
+                    <img src="/images/imagined.jpg" alt="" class="artist">
+                    <p class="playlistname">Imagine Dragons</p>
+                </div>
+                <div class="imagescontainer">
+                    <img src="/images/teamb.jpeg" alt="" class="artist">
+                    <p class="playlistname">Team Bicileta</p>
+                </div>
+                <div class="otherimages">
+                    <p>Playlists para ti</p>
+                    <div class="imagescontainer2">
+                        <img src="/images/beatles.jpg" alt="" class="artist2">
+                        <div class="playlistname2"><p>POP,ROCK,METAL</p></div>
+                    </div>
+                    <div class="imagescontainer2">
+                        <img src="/images/demboyr.jpg" alt="" class="artist2">
+                        <div class="playlistname2"><p>DEMBOW Y REGGAETON</p></div>
+                    </div>
+                    <div class="imagescontainer2">
+                        <img src="/images/indie.jpg" alt="" class="artist2">
+                        <div class="playlistname2"><p>Indie Music</p></div>
+                    </div>
+                    <div class="imagescontainer2">
+                        <img src="/images/electrohouse.jpg.crdownload" alt="" class="artist2">
+                        <div class="playlistname2"><p>Electronic</p></div>
+                    </div>
+                    <div class="imagescontainer2">
+                        <img src="/images/oneday.jpg" alt="" class="artist2">
+                        <div class="playlistname2"><p>POP Latino</p></div>
+                    </div>
+                    <div class="imagescontainer2">
+                        <img src="/images/trap2.jpg" alt="" class="artist2">
+                        <div class="playlistname2"><p>TRAP latino</p></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="music-list">
+        <div class="header">
+          <div class="row">
+            <i class= "list material-icons">queue_music</i>
+            <span>Music list</span>
+          </div>
+          <i id="close" class="material-icons">close</i>
+        </div>
+        <ul>
+          <!-- here li list are coming from js -->
+        </ul>
+      </div>
+</div>
+<script src="./scripts/music-list.js"></script>
+<script src="./scripts/script.js"></script>

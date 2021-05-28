@@ -1,3 +1,6 @@
+/*button */
+mybutton = document.getElementById("myBtn");
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -11,7 +14,6 @@ var span = document.getElementsByClassName("close")[0];
 btn.onclick = function() {
   modal.style.display = "block";
 }
-
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
@@ -36,3 +38,35 @@ const pass_field = document.querySelector('.pass-key');
          showBtn.style.color = "#222";
        }
 });
+
+/*scroll*/
+
+function myFunction(){
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll/height)*100;
+  document.getElementById("myBar").style.width=scrolled+ "%"
+  document.getElementById("myBar").style.background= "red"
+}
+
+window.onscroll = function() {myFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+window.onscroll = function() {scrollFunction()};
+
+
+// When the user scrolls the page, execute myFunction
+
+
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
