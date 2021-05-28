@@ -8,11 +8,13 @@
             </tr>     
         </thead>     
         <tbody>          
-            <% for(var i=0; i < results.length; i++) { %>          
+            <% for(var i=0; i < results.length; i++) { %>  
+            <tr>
                 <td><%= results[i].id %> </td>         
                 <td><%= results[i].fname %> </td>                 
                 <td><%= results[i].phone %> </td>                 
                 <td><%= results[i].mail %> </td>          
+            </tr>        
             <% } %>        
             </tbody> 
         </table>
