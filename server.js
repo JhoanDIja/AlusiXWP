@@ -20,7 +20,7 @@ app.get('/Download', (req, res) => res.render('pages/descargar'));
 app.get('/Sign-up', (req, res) => res.render('pages/sign-up'));
 app.get('/WebPlayer', (req, res) => res.render('pages/webPlayer'));
 
-conexion
+//conexion
 // const connection = mysql.createConnection({
 //     host: 'freedb.tech',
 //     user: 'freedbtech_AlusiX',
